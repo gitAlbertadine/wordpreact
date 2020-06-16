@@ -1,110 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
+    <body>
 
-    <header draggable="true">
-        <h1>header</h1>
-    </header>
-    status: <progress min="0" max="100" value="76"></progress>
+        <header draggable="true">
+            <h1>header</h1>
+        </header>
+        status: <progress min="0" max="100" value="76"></progress>
 
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About us</a></li>
-        </ul>
-    </nav>
-   
-<canvas></canvas>
-    <!-- <audio src="nisma.mp3" controls></audio> -->
-    <div class="container">
-        <div class="a1 a">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+        </nav>
 
-            <audio controls autoplay>
+        <canvas></canvas>
+        <!-- <audio src="nisma.mp3" controls></audio> -->
+        <div class="container">
+            <div class="a1 a">
 
-                <source src="nisma.mp3">
+                <audio controls>
+
+                <source src="nisma.pm3">
             </audio>
-            <h1>audio 1</h1>
-            <p>
-            <pre style="text-align: justify;">
-                push Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Dicta, est minus voluptates
-            itaque corrupti quidem?
-                            </pre>
-            </p>
-        </div>
-        <div class="a2 a">
-            <audio controls>
-
-                <source src="nisma.m4a">
-            </audio>
-            <h1>audio 2</h1>
-            <p>
-            <pre style="text-align: justify;">
+                <h1>audio 1</h1>
+                <p>
+                    <pre style="text-align: justify;">
                 Lorem ipsum dolor sit amet consectetur 
             adipisicing elit. Dicta, est minus voluptates
             itaque corrupti quidem?
                             </pre>
-            </p>
-        </div>
-        <div class="a2 a">
-            <audio controls>
+                </p>
+            </div>
+            <div class="a2 a">
+                <audio controls>
 
                 <source src="nisma.m4a">
             </audio>
-            <h1>audio 3</h1>
-            <p>
-            <pre style="text-align: justify;">
+                <h1>audio 2</h1>
+                <p>
+                    <pre style="text-align: justify;">
                 Lorem ipsum dolor sit amet consectetur 
             adipisicing elit. Dicta, est minus voluptates
             itaque corrupti quidem?
                             </pre>
-            </p>
-        </div>
-        <div class="a4 a">
-            <video controls loop width="300">
+                </p>
+            </div>
+            <div class="a2 a">
+                <audio controls>
+
+                <source src="nisma.m4a">
+            </audio>
+                <h1>audio 3</h1>
+                <p>
+                    <pre style="text-align: justify;">
+                Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Dicta, est minus voluptates
+            itaque corrupti quidem?
+                            </pre>
+                </p>
+            </div>
+            <div class="a4 a">
+                <video controls loop width="300">
                 <source src="nisma.mp4">
             </video>
-            <h1> video</h1>
-            <p>
-            <pre style="text-align: justify;">
+                <h1> video</h1>
+                <p>
+                    <pre style="text-align: justify;">
                 video ipsum dolor sit amet consectetur 
             adipisicing elit. Dicta, est minus voluptates
             itaque corrupti quidem?
                             </pre>
-            </p>
-        </div>
-        <div class="a5 a">
-            <iframe width="398" height="224" src="https://www.youtube.com/embed/FgBZXfnrdSA?start=55" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </p>
+            </div>
+            <div class="a5 a">
+                <iframe width="398" height="224" src="https://www.youtube.com/embed/FgBZXfnrdSA?start=55" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
-            <h1>youtube</h1>
-            <p>
-            <pre style="text-align: justify;">
+                <h1>youtube</h1>
+                <p>
+                    <pre style="text-align: justify;">
                     youtube ipsum dolor sit amet consectetur 
                 adipisicing elit. Dicta, est minus voluptates
                 itaque corrupti quidem?
                                 </pre>
-            </p>
+                </p>
+            </div>
         </div>
-    </div>
-    <div id="result"></div>
-    <script>
-       var canvas=document.querySelector('canvas')
-       canvas.width=window.innerWidth ;
-       canvas.height=window.innerHeight;
-       console.log(canvas);
-       c=canvas.getContext('2d');
-       c.fillRect(100, 100, 200, 200)
-    </script>
-</body>
+        <div id="result"></div>
+        <script>
+            var canvas = document.querySelector('canvas')
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            console.log(canvas);
+            var c = canvas.getContext('2d');
+            c.fillRect(100, 100, 200, 200)
+        </script>
+    </body>
 
 </html>
