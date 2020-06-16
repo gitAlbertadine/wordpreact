@@ -1,0 +1,18 @@
+<!-- <svg width="500" height="500 "xmlns="http://www.w3.org/2000/svg">
+  <rect  x="50" y="50" rx="50" ry="50" width="200" height="100" fill="blue" />
+    <!-- <rect width="200" height="200" /> -->
+    <polygon points="100,10 40,198 190,78 10,78 160,198" />
+    <!-- <polygon points="50 0, 0 100, 100 100" /> -->
+  
+</svg> -->
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>

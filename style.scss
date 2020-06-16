@@ -1,0 +1,48 @@
+$mycolors: (
+  primary: rgb(180, 97, 97),
+  accent: rgb(82, 182, 82),
+);
+body {
+//   background-color: map-get($mycolors, accent);
+margin-right: 60px;
+}
+canvas{
+    border: 1px solid;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    
+   flex-wrap: wrap;
+    // border: 1px solid;
+    height: 1400px;
+    .a{
+       position: relative;
+        height: 224px;
+     }
+     .a1{
+         background-color:lightgray;
+         
+     }
+     .a2{
+         background-color: lightgray
+     }
+     .a3{
+         background-color: lightgray
+     }
+     .a4{
+        background-color: lightgray
+     }
+     .a5{
+        background-color: lightgray
+     }
+     h1{
+         text-align: center;
+     }
+     audio{
+         position: absolute;
+         top: 10px;
+         left: 70px;
+     }
+}
